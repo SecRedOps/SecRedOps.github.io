@@ -99,9 +99,9 @@ author:
   location         : "127.0.0.1"
   email            :
   links:
-    - label: "Email"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "https://www.linkedin.com/in/john-downham-98576949/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sec.red"
