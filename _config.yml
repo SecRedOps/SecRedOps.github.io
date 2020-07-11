@@ -100,11 +100,11 @@ author:
   email            :
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "https://www.linkedin.com/in/john-downham-98576949/"
-    - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sec.red"
+      url: "https://www.linkedin.com/in/john-downham-98576949/"
+    - #label: "Website"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://sec.red"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
