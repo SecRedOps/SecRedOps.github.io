@@ -22,7 +22,7 @@ On the 'date' The UK Government decided to send out an SMS informing the UK popu
 	<figcaption><a href="/assets/images/genuine-gov-sms.png" title="A genuine SMS text from UK service providers posing as tke UK Gov">A genuine SMS text from UK service providers posing as tke UK Gov</a>.</figcaption>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+The above image is the genuine SMS crafted by the UK government. The idea behind this message was to keep all citizens informed about staying at home to protect the NHS as best as possible. It is important to note that the UK Gov, did not send this message themselves, they in fact asked all UK Cell providers to send the SMS as "UK Gov" this is important as many people have stated that people were "spoofing" the government, which is just simply not true.
 
 #### Fake Messages 
 
