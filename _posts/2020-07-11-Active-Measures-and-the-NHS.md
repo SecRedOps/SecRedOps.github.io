@@ -1,7 +1,7 @@
 ---
 title: "Active Measures:"
 excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax."
-header:
+header: "How the UK Government SMS about saving the NHS was turned into a hoax"
   teaser: "/assets/images/genuine-gov-sms.png"
 tags: 
   - NHS
@@ -14,6 +14,8 @@ tags:
 *When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred into the British public by indicating a fine will be issued for breaking the government advice.*
 
 #### Introduction
+
+On the 
 
 <figure>
 	<a href="/assets/images/genuine-gov-sms.png"><img src="/assets/images/genuine-gov-sms.png"></a>
@@ -31,7 +33,7 @@ And you'll get something that looks like this:
 <figure class="half">
 	<a href="/assets/images/photo_2020-03-30_11-00-25.jpg"><img src="/assets/images/photo_2020-03-30_11-00-25.jpg"></a>
 	<a href="/assets/images/photo_2020-04-01_14-06-39.jpg"><img src="/assets/images/photo_2020-04-01_14-06-39.jpg"></a>
-	<figcaption>Two images.</figcaption>
+	<figcaption>The two images above showing fake messages being circulated on social media.</figcaption>
 </figure>
 
 #### Persons Identified Spreading Fakes
