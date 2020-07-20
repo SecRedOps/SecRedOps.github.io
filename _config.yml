@@ -95,8 +95,7 @@ analytics:
 author:
   name             : "J D"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Senior Security Consultant specialiasing in Malware analysis, Threat Intelligence and Offensive Security.\
-                      This is my blog on Malware TTPs, IR, OSINT and general hacking"
+  bio              : "I am a Senior Security Consultant specialiasing in Malware analysis, Threat Intelligence and Offensive Security.\ This is my blog on Malware TTPs, IR, OSINT and general hacking"
  #location         : "127.0.0.1"
   email            :
   links:
