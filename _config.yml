@@ -96,9 +96,11 @@ author:
   name             : "J D"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : > 
-                      "I am a Senior Security Consultant specialiasing in Malware analysis, Threat Intelligence and Offensive Security.
-                       
-                        This is my blog on Malware TTPs, IR, OSINT and general hacking."
+                      I am a Senior Security Consultant specialiasing in Malware analysis, Threat Intelligence and Offensive Security.
+
+                      This is my blog on Malware TTPs, IR, OSINT and general hacking.
+
+                      Rather than list countless 'Cyber Buzzwords' like SIEM, Python, CTI, HTML and so on my CV, I decided to create this site to showcase my skill sets. Hopefully you find that more useful.  
  #location         : "127.0.0.1"
   email            :
   links:
