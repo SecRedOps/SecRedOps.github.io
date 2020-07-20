@@ -2,7 +2,7 @@
 title: "Active Measures:"
 excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax."
 header:
-  teaser: "assets/images/genuine-gov-sms.png"
+  teaser: "/assets/images/genuine-gov-sms.png"
 tags: 
   - NHS
   - Scams
