@@ -4,9 +4,11 @@ excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax.
 header:
   teaser: "https://github.com/SecRedOps/SecRedOps.github.io/blob/master/assets/images/covid-scam-fine.jpg"
 tags: 
-  - sample post
-  - images
-  - test
+  - NHS
+  - Scams
+  - Phishing
+  - Active Measures
+  - Operation Infektion
 ---
 
 *When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred from the British public by indicating you will be fined for breaking the government advice.*
