@@ -2,7 +2,7 @@
 title: "Active Measures:"
 excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax."
 header:
-  teaser: "https://github.com/SecRedOps/SecRedOps.github.io/blob/master/assets/images/covid-scam-fine.jpg"
+  teaser: "http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
 tags: 
   - NHS
   - Scams
