@@ -1,6 +1,6 @@
 ---
-title: "Blog: Walking Through a Maze(Ransomware Attack)"
-excerpt: "Breaking down the Maze gang(TA2101) TTPs."
+title: "Tool: VPN IP lookup tool"
+excerpt: "Is this IP in your logs a VPN?"
 header:
   teaser: "https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
 tags: 

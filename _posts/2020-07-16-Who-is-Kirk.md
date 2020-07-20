@@ -1,5 +1,5 @@
 ---
-title: "2020 Twitter Breach:"
+title: "Blog: 2020 Twitter Breach"
 excerpt: "The worst social media attack to date."
 header:
   teaser: "https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
