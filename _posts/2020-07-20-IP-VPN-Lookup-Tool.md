@@ -22,7 +22,7 @@ Head to https://iphub.info/api and grab yourself a free API key, remember to adh
 I tend to use Excel to create a list of IPs in quotes eg:
 "1.1.1.1 2.2.2.2 3.3.3.3." and paste into the script, then output into a format that will allow you to search across whatever you are using for analysis. 
 
-standard output by default is json. 
+Standard output by default is json. 
 
 #### Code
 
