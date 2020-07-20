@@ -26,7 +26,7 @@ The above image is the genuine SMS crafted by the UK government. The idea behind
 
 #### Fake Messages 
 
-Apply the `half` class like so to display two images side by side that share the same caption.
+As with most things related to the government, the scammers are quick to catch on in hope they can piggy back the governments tactics and 
 
 And you'll get something that looks like this:
 
