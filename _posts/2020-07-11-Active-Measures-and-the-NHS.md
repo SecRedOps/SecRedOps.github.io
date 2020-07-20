@@ -12,8 +12,8 @@ tags:
 *When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred from the British public by indicating you will be fined for breaking the government advice.*
 
 <figure>
-	<a href="assets/images/covid-scam-fine.jpg"><img src="assets/images/covid-scam-fine.jpg"></a>
-	<figcaption><a href="assets/images/covid-scam-fine.jpg" title="Foreign State Actors attempting to mislead tehe British public">Foreign State Actors attempting to mislead the British public</a>.</figcaption>
+	<a href="https://github.com/SecRedOps/SecRedOps.github.io/blob/master/assets/images/covid-scam-fine.jpg"><img src="https://github.com/SecRedOps/SecRedOps.github.io/blob/master/assets/images/covid-scam-fine.jpg"></a>
+	<figcaption><a href="https://github.com/SecRedOps/SecRedOps.github.io/blob/master/assets/images/covid-scam-fine.jpg" title="Foreign State Actors attempting to mislead the British public">Foreign State Actors attempting to mislead the British public</a>.</figcaption>
 </figure>
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
