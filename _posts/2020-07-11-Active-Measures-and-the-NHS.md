@@ -15,8 +15,6 @@ tags:
 
 #### Introduction
 
-One the.
-
 <figure>
 	<a href="/assets/images/genuine-gov-sms.png"><img src="/assets/images/genuine-gov-sms.png"></a>
 	<figcaption><a href="/assets/images/genuine-gov-sms.png" title="A genuine SMS text from UK service providers posing as tke UK Gov">A genuine SMS text from UK service providers posing as tke UK Gov</a>.</figcaption>
