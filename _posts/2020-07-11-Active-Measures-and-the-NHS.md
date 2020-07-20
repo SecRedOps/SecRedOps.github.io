@@ -11,13 +11,9 @@ tags:
 
 *Coming Soon*
 
-### Figures (for images or video)
-
-#### One Up
-
 <figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="assets/images/covid-scam-fine.jpg"><img src="assets/images/covid-scam-fine.jpg"></a>
+	<figcaption><a href="assets/images/covid-scam-fine.jpg" title="Foreign State Actors attempting to mislead tehe British public">Foreign State Actors attempting to mislead the British public</a>.</figcaption>
 </figure>
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
