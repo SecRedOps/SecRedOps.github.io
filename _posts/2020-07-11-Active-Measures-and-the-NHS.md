@@ -9,7 +9,7 @@ tags:
   - test
 ---
 
-*Coming Soon*
+*When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred from the British public by indicating you will be fined for breaking the government advice.*
 
 <figure>
 	<a href="assets/images/covid-scam-fine.jpg"><img src="assets/images/covid-scam-fine.jpg"></a>
