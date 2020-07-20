@@ -11,7 +11,7 @@ tags:
   - Operation Infektion
 ---
 
-*When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred from the British public by indicating you will be fined for breaking the government advice.*
+*When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred into the British public by indicating a fine will be issued for breaking the government advice.*
 
 ### Figures (for images or video)
 
