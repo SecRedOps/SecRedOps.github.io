@@ -17,16 +17,20 @@ tags:
 	<a href="/assets/images/iphub.png"><img src="/assets/images/iphub.png"></a>
 </figure>
 
-Head to https://iphub.info/api and grab yourself a free API key, remember to adhere to the rate limiting policies. I tend to use Excel to create a list of IPs in quotes eg:
-"1.1.1.1 2.2.2.2 3.3.3.3." and paste into the script, then output into a format that will allow you to search across whatever you are using for analysis. standard output by default is json. 
+Head to https://iphub.info/api and grab yourself a free API key, remember to adhere to the rate limiting policies. 
+
+I tend to use Excel to create a list of IPs in quotes eg:
+"1.1.1.1 2.2.2.2 3.3.3.3." and paste into the script, then output into a format that will allow you to search across whatever you are using for analysis. 
+
+standard output by default is json. 
 
 #### Code
 
-Create a bash script with nano (or vim you pest) chmod +x and run
+Create a bash script with nano/vim  chmod +x and run
 
 ```html
 #!/bin/bash
-## declare an array variable
+## -a = declare an array variable
 ## change the IP in brackets to what you want to search for, no need to comma separate multuple IPs, just use qoutes
 echo "check if an IP is a VPN with iphub - get your API key here:https://iphub.info/api"
 echo "use with caution if blocking IP addresses"
