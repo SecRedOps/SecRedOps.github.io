@@ -2,64 +2,73 @@
 title: "Tool: VPN IP lookup tool"
 excerpt: "Is that IP in your logs a VPN?"
 header:
-  teaser: "https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
+  teaser: "/assets/images/iphub.png"
 tags: 
-  - sample post
-  - images
-  - test
+  - VPN
+  - IP
+  - Threats
 ---
 
-*Coming Soon*
-
-### Figures (for images or video)
+*Use this tool to check for the existence of VPNs in your logs. Use cases Office 365, SFTP providers and so on.*
 
 #### One Up
 
 <figure>
-	<a href="https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="https://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="/assets/images/iphub.png"><img src="/assets/images/iphub.png"></a>
+	<figcaption><a href="/assets/images/iphub.png" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+Head to https://iphub.info/api and grab yourself a free API key, remember to adhere to the rate limiting policies. I tend to use Excel to create a list of IPs in quotes eg:
+"1.1.1.1 2.2.2.2 3.3.3.3." and paste into the script, then output into a format that will allow you to search across whatever you are using for analysis. standard output by default is json. 
 
-#### Two Up
+#### Code
 
-Apply the `half` class like so to display two images side by side that share the same caption.
+create a bash script with nano (or vim you pest) chmod +x and run
 
 ```html
-<figure class="half">
-    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
-    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
+#!/bin/bash
+## declare an array variable
+## change the IP in brackets to what you want to search for, no need to comma separate multuple IPs, just use qoutes
+echo "check if an IP is a VPN with iphub - get your API key here:https://iphub.info/api"
+echo "use with caution if blocking IP addresses"
+echo
+echo "block: 0 - Residential or business IP (i.e. safe IP)"
+echo
+echo "block: 1 - Non-residential IP (hosting provider, proxy, etc.)"
+echo
+echo "block: 2 - Non-residential & residential IP (warning, may flag innocent people)"
+echo
+declare -a arr=("1.1.1.1")
+
+## now loop through the above array
+for i in "${arr[@]}"
+do
+   curl -s -S http://v2.api.iphub.info/ip/$i -H "X-Key: place your key here" | json_pp && sleep 3
+done
 ```
 
 And you'll get something that looks like this:
 
-<figure class="half">
-	<a href="https://placehold.it/1200x600.JPG"><img src="https://placehold.it/600x300.jpg"></a>
-	<a href="https://placehold.it/1200x600.jpeg"><img src="https://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
-</figure>
-
-#### Three Up
-
-Apply the `third` class like so to display three images side by side that share the same caption.
+#### Output
 
 ```html
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
+check if an IP is a VPN with iphub - get your API key here:https://iphub.info/api
+use with caution if blocking IP addresses
+
+block: 0 - Residential or business IP (i.e. safe IP)
+
+block: 1 - Non-residential IP (hosting provider, proxy, etc.)
+
+block: 2 - Non-residential & residential IP (warning, may flag innocent people)
+{
+   "countryCode" : "AU",
+   "asn" : 13335,
+   "isp" : "CLOUDFLARENET",
+   "hostname" : "1.1.1.1",
+   "countryName" : "Australia",
+   "ip" : "1.1.1.1",
+   "block" : 1
+}
 ```
 
-And you'll get something that looks like this:
-
-<figure class="third">
-	<img src="https://placehold.it/600x300.jpg">
-	<img src="https://placehold.it/600x300.jpg">
-	<img src="https://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
-</figure>
+Happy threat hunting
