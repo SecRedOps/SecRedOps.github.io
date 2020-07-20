@@ -36,7 +36,7 @@ And you'll get something that looks like this:
 
 <figure class="half">
 	<a href="/assets/images/photo_2020-03-30_11-00-25.jpg"><img src="/assets/images/photo_2020-03-30_11-00-25.jpg"></a>
-	<a href="assets/images/photo_2020-04-01_14-06-39.jpg"><img src="assets/images/photo_2020-04-01_14-06-39.jpg"></a>
+	<a href="/assets/images/photo_2020-04-01_14-06-39.jpg"><img src="/assets/images/photo_2020-04-01_14-06-39.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
