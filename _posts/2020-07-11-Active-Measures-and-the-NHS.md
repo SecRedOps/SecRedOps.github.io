@@ -1,7 +1,7 @@
 ---
 title: "Active Measures:"
 excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax."
-header: "How the UK Government SMS about saving the NHS was turned into a hoax."
+header: 
   teaser: "/assets/images/genuine-gov-sms.png"
 tags: 
   - NHS
@@ -14,8 +14,6 @@ tags:
 *When the UK Government tried to warn people to stay home to protect the NHS via SMS, Foreign State Actors took that as an opportunity to try and stoke fear and hatred into the British public by indicating a fine will be issued for breaking the government advice.*
 
 #### Introduction
-
-On the.
 
 <figure>
 	<a href="/assets/images/genuine-gov-sms.png"><img src="/assets/images/genuine-gov-sms.png"></a>
