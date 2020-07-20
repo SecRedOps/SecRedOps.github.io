@@ -11,11 +11,10 @@ tags:
 
 *Use this tool to check for the existence of VPNs in your logs. Use cases Office 365, SFTP providers and so on.*
 
-#### One Up
+#### Introduction
 
 <figure>
 	<a href="/assets/images/iphub.png"><img src="/assets/images/iphub.png"></a>
-	<figcaption><a href="/assets/images/iphub.png" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
 Head to https://iphub.info/api and grab yourself a free API key, remember to adhere to the rate limiting policies. I tend to use Excel to create a list of IPs in quotes eg:
@@ -23,7 +22,7 @@ Head to https://iphub.info/api and grab yourself a free API key, remember to adh
 
 #### Code
 
-create a bash script with nano (or vim you pest) chmod +x and run
+Create a bash script with nano (or vim you pest) chmod +x and run
 
 ```html
 #!/bin/bash
