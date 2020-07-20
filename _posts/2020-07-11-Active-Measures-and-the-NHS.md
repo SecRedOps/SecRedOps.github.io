@@ -15,7 +15,7 @@ tags:
 
 #### Introduction
 
-On the 
+On the. 
 
 <figure>
 	<a href="/assets/images/genuine-gov-sms.png"><img src="/assets/images/genuine-gov-sms.png"></a>
