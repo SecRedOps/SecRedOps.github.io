@@ -1,6 +1,7 @@
 ---
 title: "Tool: VPN IP lookup tool"
 excerpt: "Is that IP in your logs a VPN?"
+author_profile: false
 header:
   teaser: "/assets/images/iphub.png"
 tags: 
