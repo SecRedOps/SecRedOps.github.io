@@ -1,6 +1,7 @@
 ---
 title: "Blog: Active Measures and the NHS"
 excerpt: "How the UK Government SMS about saving the NHS was turned into a hoax."
+author_profile: false
 header: 
   teaser: "/assets/images/genuine-gov-sms.png"
 tags: 
