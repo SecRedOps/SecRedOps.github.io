@@ -96,6 +96,8 @@ author:
   name             : "J D"
   avatar           : "/assets/images/nCG03W7XN6VSK.jpg"
   bio              : | 
+                      Site is currently being migrated 
+
                       I am a Senior Security Consultant specialiasing in Malware analysis, Threat Intelligence and Offensive Security.
 
                       This is my blog on Malware TTPs, IR, OSINT and general hacking.
@@ -104,9 +106,9 @@ author:
  #location         : "127.0.0.1"
   email            :
   links:
-    - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.linkedin.com/in/john-downham-98576949/"
+    - #label: "LinkedIn"
+      #icon: "fas fa-fw fa-link"
+      #url: ""
     - #label: "Website"
       #icon: "fas fa-fw fa-link"
       #url: "https://sec.red"
