@@ -4,61 +4,49 @@ excerpt: "The worst social media attack to date."
 header:
   teaser: "/assets/images/EdBtJFAU0AAhsbg.jfif"
 tags: 
-  - sample post
-  - images
-  - test
+  - Twitter
+  - Breach
+  - Admin
+  - Kirk
 ---
 
-*Coming Soon*
+*Update Coming soon*
 
-### Figures (for images or video)
-
-#### One Up
+### The 2020 Twitter Breach
 
 <figure>
 	<a href="/assets/images/EdBtJFAU0AAhsbg.jfif"><img src="/assets/images/EdBtJFAU0AAhsbg.jfif"></a>
 </figure>
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+On July 15th, 2020 a Twitter Admin panel was compromised by hackers. With access to the Twitter Admin panel the attackers gained the ability to take over user accounts and targeted high-profile accounts such as Barack Obama, Joe Biden, Bill Gates, Jeff Bezos and many more. 
 
-#### Two Up
+#### OG Users
 
-Apply the `half` class like so to display two images side by side that share the same caption.
+The hackers posted from these accounts that if users sent Bitcoin to a specific address, they would receive double the original transaction back to their wallets. In total the attackers Bitcoin addresses gained over $100,000. It should be noted however that it is a common technique for scam artists to place their own money in Bitcoin wallets to make it look as though more people are transferring money to make them look more legitimate. So, it is not known how much actual money they managed to steal. 
 
-```html
-<figure class="half">
-    <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
-    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
-```
+This is a common scam that has been plaguing the cryptocurrency community for some time and most crypto enthusiasts are aware of them. However, this is the first time that accounts such as those mentioned above have been involved in such a scam. In addition to the Bitcoin scam the accounts were also posting links to malicious websites, these websites were soon taken down, however. 
 
-And you'll get something that looks like this:
+So, how was the actual Twitter admin panel compromised? Several sources have come forward to allege that an individual named ‘Kirk’ was providing access to three users of an online virtual marketplace known as OGUsers. These three users were apparently attempting to sell high value accounts such as single character handles like @6. However, after only a few transactions, it seems they may have lost interest and started the Bitcoin scam, which is how the attack quickly became apparent. The account in the image below appears to show the accounts being sold on the OGUsers forum. 
 
-<figure class="half">
-	<a href="https://placehold.it/1200x600.JPG"><img src="https://placehold.it/600x300.jpg"></a>
-	<a href="https://placehold.it/1200x600.jpeg"><img src="https://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+<figure>
+	<a href="/assets/images/chaewon.png"><img src="/assets/images/chaewon.png"></a>
 </figure>
 
-#### Three Up
+In total there were three users on the forum selling accounts two of which have now been banned permanently. 
+It is not known at this time whether the admin panel was compromised via a phishing or social engineering attack or a Twitter employee sold access to this hacking group. It is being heavily suggested it is the latter however, and Twitter are still investigating this.
 
-Apply the `third` class like so to display three images side by side that share the same caption.
+#### Admin Panel 
 
-```html
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
+Several Twitter users were also posting images of the supposed admin panel, Twitter quickly took down these images and suspended the accounts citing it was a policy violation. Below is a picture of the supposed admin panel which has been redacted of sensitive information. The Admin panel offers the ability to take over an account by replacing the current email, and therefor circumventing password resets and 2fa.
+
+<figure>
+	<a href="/assets/images/Screen-Shot.jpg"><img src="/assets/images/Screen-Shot.jpg"></a>
 </figure>
-```
 
-And you'll get something that looks like this:
+In summary, the Admin panel clearly had too much access across the platform, and if you’re wondering why the POTUS was not involved in the scam, that is because Twitter had to put extra measures in place to protect his account after a Twitter employee tried to ban him in 2017.
 
-<figure class="third">
-	<img src="https://placehold.it/600x300.jpg">
-	<img src="https://placehold.it/600x300.jpg">
-	<img src="https://placehold.it/600x300.jpg">
-	<figcaption>Three images.</figcaption>
-</figure>
+So, Twitter has a lot to answer for, like why did one user have so much power without being properly controlled? Will this have political ramifications if the DMs of famous politicians were read?
+
+Hopefully, we will have some more information soon and we will update when we do. 
+
+
