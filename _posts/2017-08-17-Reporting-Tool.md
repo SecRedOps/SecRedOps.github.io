@@ -16,9 +16,8 @@ tags:
 
 <figure>
 	<a href="/assets/images/serpico.jpg"><img src="/assets/images/serpico.jpg"></a>
-	<figcaption><a href="/assets/images/serpico.jpg" title="Serpico Report Automation">Serpico Report Automation</a></figcaption>
 </figure>
 
-For now I am just going to post the repo<a href="https://github.com/SecRedOps/VPN-Finder">link</a> and you can go via the read.me to get up and running. In time I'll place a full walk-through here to help with report template creation and many more features. 
+For now I am just going to post the repo <a href="https://github.com/SecRedOps/VPN-Finder">link</a> and you can go via the read.me to get up and running. In time I'll place a full walk-through here to help with report template creation and many more features. 
 
 
