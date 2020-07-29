@@ -2,7 +2,7 @@
 title: "CTF: The Matrix challenge provided to SEROCU + Met Police"
 excerpt: "This is the CTF that would have been used for the Matrix challenge 2020"
 header:
-  teaser: "/assets/images/matrix-challenge-2020.webp"
+  teaser: "/assets/images/MCTheMet.PNG"
 tags: 
   - sample post
   - images
@@ -16,7 +16,7 @@ tags:
 #### One Up
 
 <figure>
-	<a href="/assets/images/matrix-challenge-2020.webp"><img src="/assets/images/matrix-challenge-2020.webp"></a>
+	<a href="/assets/images/MCTheMet.PNG"><img src="/assets/images/MCTheMet.PNG"></a>
 </figure>
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
