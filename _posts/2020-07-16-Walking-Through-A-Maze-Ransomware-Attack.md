@@ -1,6 +1,6 @@
 ---
 title: "Blog: Walking Through a Maze(Ransomware Attack)"
-excerpt: "Breaking down the Maze gang(TA2101) TTPs."
+excerpt: "Breaking down of the Maze gang(TA2101) TTPs."
 header:
   teaser: "/assets/images/Maze.png"
 tags: 
@@ -11,7 +11,7 @@ tags:
 
 *Coming Soon my write up on Maze TTPs*
 
-### Walk-through of a recent breach by the Maze gang
+### Walk-through of a recent breach by the Maze gang(TA2101)
 
 
 <figure>
