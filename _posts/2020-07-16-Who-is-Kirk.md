@@ -20,11 +20,13 @@ tags:
 
 On July 15th, 2020 a Twitter Admin panel was compromised by hackers. With access to the Twitter Admin panel the attackers gained the ability to take over user accounts and targeted high-profile accounts such as Barack Obama, Joe Biden, Bill Gates, Jeff Bezos and many more. 
 
-#### OG Users
+#### But how?
 
 The hackers posted from these accounts that if users sent Bitcoin to a specific address, they would receive double the original transaction back to their wallets. In total the attackers Bitcoin addresses gained over $100,000. It should be noted however that it is a common technique for scam artists to place their own money in Bitcoin wallets to make it look as though more people are transferring money to make them look more legitimate. So, it is not known how much actual money they managed to steal. 
 
 This is a common scam that has been plaguing the cryptocurrency community for some time and most crypto enthusiasts are aware of them. However, this is the first time that accounts such as those mentioned above have been involved in such a scam. In addition to the Bitcoin scam the accounts were also posting links to malicious websites, these websites were soon taken down, however. 
+
+#### OG Users
 
 So, how was the actual Twitter admin panel compromised? Several sources have come forward to allege that an individual named ‘Kirk’ was providing access to three users of an online virtual marketplace known as OGUsers. These three users were apparently attempting to sell high value accounts such as single character handles like @6. However, after only a few transactions, it seems they may have lost interest and started the Bitcoin scam, which is how the attack quickly became apparent. The account in the image below appears to show the accounts being sold on the OGUsers forum. 
 
