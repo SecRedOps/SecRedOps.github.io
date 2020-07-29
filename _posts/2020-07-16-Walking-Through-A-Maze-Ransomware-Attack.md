@@ -9,7 +9,7 @@ tags:
   - test
 ---
 
-*Coming Soon mr write up on Maze TTPs*
+*Coming Soon my write up on Maze TTPs*
 
 ### Figures (for images or video)
 
