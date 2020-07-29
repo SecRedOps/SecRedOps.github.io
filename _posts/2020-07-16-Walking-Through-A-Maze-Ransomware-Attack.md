@@ -11,9 +11,8 @@ tags:
 
 *Coming Soon my write up on Maze TTPs*
 
-### Figures (for images or video)
+### Walk-through of a recent breach by the Maze gang
 
-#### One Up
 
 <figure>
 	<a href="/assets/images/Maze.png"><img src="/assets/images/Maze.png"></a>
