@@ -2,7 +2,7 @@
 title: "Blog: 2020 Twitter Breach"
 excerpt: "The worst social media attack to date."
 header:
-  teaser: "https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
+  teaser: "/assets/images/EdBtJFAU0AAhsbg.jfif"
 tags: 
   - sample post
   - images
@@ -16,8 +16,7 @@ tags:
 #### One Up
 
 <figure>
-	<a href="https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="https://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="https://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="/assets/images/EdBtJFAU0AAhsbg.jfif"><img src="/assets/images/EdBtJFAU0AAhsbg.jfif"></a>
 </figure>
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
