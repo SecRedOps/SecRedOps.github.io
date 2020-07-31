@@ -1,6 +1,4 @@
 ---
-head_scripts:
-  - /_includes/head/custom.html
 title: "Blog: 2020 Twitter Breach"
 excerpt: "The worst social media attack to date."
 header:
