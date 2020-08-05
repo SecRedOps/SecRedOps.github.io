@@ -120,4 +120,12 @@ It is worth noting that whilst Cylance has detected multiple instances of variou
 
 Once the attack team had managed to acquire all necessary privileges to access any machine across the network, they then proceeded to extract data to a VPS. 
 
-Reviewing the logs of the DC showed that Cylance detected potentially malicious PowerShell activity and stopped the process as see below:
+Reviewing the logs of the DC showed that Cylance detected potentially malicious PowerShell activity and stopped the running process a number of times before the attackers simply switched off Cyalnce, allowing them to carry out further attacks unhindered. 
+
+The PowerShell logs indicated the attackers used a tactic known as a ‘Fileless attack’ which is a type of memory-based malware. This is purposely used to prevent the possibility of digital forensics, as shutting down or rebooting the server will wipe the memory and the evidence along with it. Thankfully, it was possible to recover the commands from System logs used to carry out this exploit.
+
+To conduct this attack, the following commands were added to a Windows Registry key value, so that when that process began, the subsequent PowerShell commands were executed. These commands have been broken down below for a clearer understanding of their purpose and intention. 
+
+```sh
+%COMSPEC% /b /c start /b /min powershell -nop -w hidden -enCodedcommand [base64 string]
+```
