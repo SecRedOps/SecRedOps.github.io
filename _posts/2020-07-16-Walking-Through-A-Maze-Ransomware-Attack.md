@@ -110,8 +110,14 @@ In total, thirty-seven attempts were detected of the process ‘loader64.exe’
 
 During the investigation process it was also noticed that the attack team were systematically removing tools in attempt to remain undetected. Various backups where showing that tools being installed were quickly deleted not long after use, so daily backups are essential!
 
+At this stage of the investigation the attackers have compromised all hosts on the network, even with Cylance deployed. 
+
 ### Cylance Detection
 
-It is worth noting that whilst Cylance has detected multiple instances of various threats, it did allow for attacks to get through. Which will be detailed shortly. 
+It is worth noting that whilst Cylance has detected multiple instances of various threats, it did allow for attacks to get through. This is due to poor configuration of the Cylance deployment with a combination of a poor monitoring service. 
 
 ### Data Exfiltration 
+
+Once the attack team had managed to acquire all necessary privileges to access any machine across the network, they then proceeded to extract data to a VPS. 
+
+Reviewing the logs of the DC showed that Cylance detected potentially malicious PowerShell activity and stopped the process as see below:
