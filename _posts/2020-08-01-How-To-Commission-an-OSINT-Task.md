@@ -1,3 +1,4 @@
+---
 title: "How to Commission an OSINT Task"
 excerpt: "OSINT Tasking"
 author_profile: false
