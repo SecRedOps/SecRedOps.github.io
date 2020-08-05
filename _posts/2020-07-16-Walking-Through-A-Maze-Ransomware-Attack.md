@@ -207,3 +207,17 @@ The malware also has a list of filenames that will not be encrypted:
 -	bin
 -	DECRYPT-FILES.txt
 
+So we are now at the stage where all data has been uploaded to the attacker VPS, all files on the devices across the network are encrypted and left with the ransom note on the desktop. 
+
+After navigating to the URL provided by the Maze team, I discussed with them the attack and how much they wanted for the decrypt key, I got the following answer:
+
+<figure>
+	<a href="/assets/images/million.png"><img src="/assets/images/million.png"></a>
+</figure>
+
+The client chose not to pay, wipe their servers and devices, restore from known safe back ups and take appropriate actions in regards to informing the ICO.
+
+A couple of final points from me
+
+1. logs, logs, logs - make sure everything is logging and backing up somewhere, this breach was active for nearly 30 days before being detected.
+2. Make sure your end point protection is properly deployed and cannot be disabled locally. 
