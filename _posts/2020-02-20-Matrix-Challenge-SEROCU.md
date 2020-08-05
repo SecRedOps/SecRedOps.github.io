@@ -1,6 +1,7 @@
 ---
 title: "CTF: The Matrix challenge provided to SEROCU + Met Police"
 excerpt: "This is the CTF that would have been used for the Matrix challenge 2020"
+author_profile: false
 header:
   teaser: "/assets/images/MCTheMet.PNG"
 tags: 
