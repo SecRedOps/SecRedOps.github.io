@@ -57,3 +57,9 @@ Looking through the logs of one device that was exposed to the Internet with the
 <figure>
 	<a href="/assets/images/RDP-BF.png"><img src="/assets/images/RDP-BF.png"></a>
 </figure>
+
+Then after several months of trying the attackers are successful at logging into the server. The logs show our first entry point, and no prizes for guessing where the attacker is from:
+
+<figure>
+	<a href="/assets/images/RU-IP.png"><img src="/assets/images/RU-IP.png"></a>
+</figure>
