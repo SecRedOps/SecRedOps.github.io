@@ -12,6 +12,9 @@ tags:
 
 #### How to commission an OSINT investigation 
 
+<figure>
+	<a href="/assets/images/osint.png"><img src="/assets/images/osint.png"></a>
+</figure>
 
 Firstly – what is OSINT? OSINT stands for Open Source Intelligence, and typically means information that is collectible via the open Internet through a variety of methods, which can involve searching public code repositories, searching for public IP addresses and their Internet facing software or social media research of entities on-line activities, plus a whole lot more.
 
