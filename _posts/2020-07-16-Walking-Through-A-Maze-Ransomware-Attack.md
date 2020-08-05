@@ -9,8 +9,6 @@ tags:
   - Maze
 ---
 
-*Coming Soon my write up on Maze TTPs*
-
 ### Walk-through of a recent breach by the Maze gang(TA2101)
 
 
@@ -219,5 +217,5 @@ The client chose not to pay, wipe their servers and devices, restore from known 
 
 A couple of final points from me
 
-1. logs, logs, logs - make sure everything is logging and backing up somewhere, this breach was active for nearly 30 days before being detected.
+1. logs, logs, logs - make sure everything is logging and backing up somewhere, this breach was active for nearly 30 days before being detected, would your systems be able to retrieve logs that far back? 
 2. Make sure your end point protection is properly deployed and cannot be disabled locally. 
