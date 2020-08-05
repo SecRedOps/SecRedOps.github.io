@@ -70,3 +70,20 @@ So, we are now at the point where the attackers have access to a server on an in
 
 ### Lateral Movement 
 
+Now the attackers have access to the internal network, with a Domain Administrator account no less, they will attempt to enumerate other hosts and services running on the network. To do this the attackers download a network scanning tool to the server on the Administrator desktop, this also includes their licence and configuration for the tool of what they want to check across the network.
+
+The attackers are also clearly automating all of this, as the logs show an connection and the command 'nslookup' being used to find the Domain Controller, then instantly disconnecting. 
+
+Thankfully, these servers are backing up to a separate cloud storage container quite frequently, meaning we can see the files that have been captured by the backup, even though the attackers try and clean up after themselves. 
+
+The three files the attacker place on the PC are:
+
+<figure>
+	<a href="/assets/images/net64.png"><img src="/assets/images/net64.png"></a>
+</figure>
+
+As mentioned, this the network scanning tool, licence, and configuration file, running the net64.exe also confirms the language of the attackers:
+
+<figure>
+	<a href="/assets/images/tool.png"><img src="/assets/images/tool.png"></a>
+</figure>
