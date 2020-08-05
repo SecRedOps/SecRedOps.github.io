@@ -172,7 +172,7 @@ I also observed remnants of the malicious payloads that had been captured during
 
 The malicious payload operates under strict criteria and will only encrypt certain files and folders. Where it does encrypt data, it leaves a copy of the ransom note. 
 
-The following locations were not found to not be encrypted:
+The following locations were found to be excluded from being encrypted:
 
 -	Windows main directory.
 -	Games
