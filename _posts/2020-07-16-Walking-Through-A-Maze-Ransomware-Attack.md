@@ -74,9 +74,9 @@ Now the attackers have access to the internal network, with a Domain Administrat
 
 The attackers are also clearly automating all of this, as the logs show an connection and the command 'nslookup' being used to find the Domain Controller, then instantly disconnecting. 
 
-Thankfully, these servers are backing up to a separate cloud storage container quite frequently, meaning we can see the files that have been captured by the backup, even though the attackers try and clean up after themselves. 
+Thankfully, these servers are backing up to a separate cloud storage container quite frequently, meaning we can see the files that have been captured by the backup, even though the attackers try and clean up after themselves by periodically deleting files. 
 
-The three files the attacker place on the PC are:
+The three files the attacker place on the infected PC are:
 
 <figure>
 	<a href="/assets/images/net64.png"><img src="/assets/images/net64.png"></a>
@@ -87,3 +87,31 @@ As mentioned, this the network scanning tool, licence, and configuration file, r
 <figure>
 	<a href="/assets/images/tool.png"><img src="/assets/images/tool.png"></a>
 </figure>
+
+The executable seen in the image above, ‘net64.exe’ is a portable network scanner that can be deployed by an automated process with a licence and configuration file. The configuration file included in this case shows that the tool is setup to search across the network for the following IP ranges and ports:
+
+<figure>
+	<a href="/assets/images/config.png"><img src="/assets/images/config.png"></a>
+</figure>
+
+The tool will scan everything on the given network range from 192.168.0.0 to 192.168.255.255 for live hosts. Once a live host has been found it will check for open port numbers in the above image. 
+If the tool identifies open ports such as remote terminal services, it will attempt to use stored credentials and authenticate to the service, reporting if successful or not.  
+
+### Further Exploitation 
+
+Once the attackers became aware that they had access to the network via their automated tools, they proceeded to carry out further exploitation techniques, such as password dumping. To do this the attackers placed known exploitation tools such as Mimikatz and NPRW on the DC. Attackers commonly use Mimikatz to steal credentials and escalate privileges: in most cases, endpoint protection software and anti-virus systems will detect and delete it. 
+NPRW stands for Network Password Recovery Tool and is used to scan the system for user stored credentials. This is a commercially available piece of software that appears to originate from Russia. 
+
+<a href="https://www.passcape.com/network_password_recovery">Checkout NPRW here</a> 
+
+When the attackers attempted to run this tool, one of the processes it uses triggered the Cylance end point protection as a known malicious tool. 
+
+In total, thirty-seven attempts were detected of the process ‘loader64.exe’ 
+
+During the investigation process it was also noticed that the attack team were systematically removing tools in attempt to remain undetected. Various backups where showing that tools being installed were quickly deleted not long after use, so daily backups are essential!
+
+### Cylance Detection
+
+It is worth noting that whilst Cylance has detected multiple instances of various threats, it did allow for attacks to get through. Which will be detailed shortly. 
+
+### Data Exfiltration 
