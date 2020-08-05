@@ -13,7 +13,7 @@ tags:
 #### How to commission an OSINT investigation 
 
 
-Firstly – what is OSINT? OSINT stands for Open Source Intelligence, and typically means information that is collectible via the open internet through a variety of methods, which can involve searching public code repositories, searching for public IP addresses and their internet facing software or social media research of entities online activities, plus a whole lot more.
+Firstly – what is OSINT? OSINT stands for Open Source Intelligence, and typically means information that is collectible via the open Internet through a variety of methods, which can involve searching public code repositories, searching for public IP addresses and their Internet facing software or social media research of entities on-line activities, plus a whole lot more.
 
 All this information can be collated and used to create intelligence reports for legal action such as; issuing cease and desist instructions, or just to become aware of adversaries and their methods and intentions. 
 
@@ -34,7 +34,7 @@ Going back to phase one, this is where you will come in as the commissioner, her
 
 Once you have passed on this information you will need to provide some key deliverables to assist in our phase two, for instance, you may have a specific requirement to pursue legal action which may require us to capture evidence in a forensic state, making it admissible in court. Additionally, you or your client may wish to set a time frame in which they expect some results. Our approach is to always take an initial ‘first look’ and from here I will provide what I believe is achievable and in what time frames. Once I understand what you or your clients wants to achieve, I can progress onto stage three. 
 
-Here in phase three is where things will get interesting, now I have our objectives and some information to begin the investigation. I have access to a variety of enterprise tools as well as our my own tools and techniques that I have created in house or carried over from working with the UK Government. With these tools and methods put together I can carry out thorough investigations into individuals, organisations, and groups, including forums, social media groups and chat services. As the world of online information is forever growing, it would not be beneficial to list all the types of service I can review here. 
+Here in phase three is where things will get interesting, now I have our objectives and some information to begin the investigation. I have access to a variety of enterprise tools as well as our my own tools and techniques that I have created in house or carried over from working with the UK Government. With these tools and methods put together I can carry out thorough investigations into individuals, organisations, and groups, including forums, social media groups and chat services. As the world of on-line information is forever growing, it would not be beneficial to list all the types of service I can review here. 
 
 Once I have completed the investigation our team will prearrange some dates and times to offer our findings via a conference call where I can show our data and planned next steps if any are required.
 
