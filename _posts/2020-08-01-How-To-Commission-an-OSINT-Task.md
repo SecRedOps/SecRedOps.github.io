@@ -1,6 +1,6 @@
 ---
 title: "How to Commission an OSINT Task"
-excerpt: "OSINT Tasking"
+excerpt: "A guide for OSINT Investigations"
 author_profile: false
 header:
   teaser: "/assets/images/osint.png"
