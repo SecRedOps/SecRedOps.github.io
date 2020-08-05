@@ -158,3 +158,52 @@ Looking at the attacking host IP on Shodan shows that it is a Kali Linux server 
 <figure>
 	<a href="/assets/images/VPS.png"><img src="/assets/images/VPS.png"></a>
 </figure>
+
+### Malware Execution 
+
+The attack team initiated the installation of the malicious files that would encrypt all the user data on the compromised devices as the final stage. The following is a breakdown of how the malware operates and encrypts files on the infected hosts. 
+
+The malware uses two algorithms to encrypt files, ChaCha which is based on the Salsa20 algorithm that is symmetric and, for protection, an RSA algorithm that is asymmetric. 
+
+In each execution the malware creates a Public BLOB of one RSA key that will be used to encrypt the part that holds the information to decrypt the files, and one Private BLOB with an RSA key that allows decryption of the information encrypted with the public RSA blob created previously.
+
+After this, the malware starts the procedure of encrypting the files, searching in units, before importing the RSA public BLOB key generated in runtime. Then it creates the ransom note prepared for the infected machine in the root folder and then starts looking for folders and files to encrypt. At the point all files are encrypted the malware stops and removes the binaries and Dynamic-Link Libraries (DLL) that it has utilised to complete the attack. 
+
+I also observed remnants of the malicious payloads that had been captured during the forensic acquisition. This became apparent when carrying out the investigation and found a copy of the payload in the same location as the log files in a possible attempt to prevent analysis or an investigation. Due to the way the I was able to conduct static analysis of the device files, it was clear that there was an attempt at a persistent threat on the devices. The malicious file was safely removed to continue the investigation. 
+
+The malicious payload operates under strict criteria and will only encrypt certain files and folders. Where it does encrypt data, it leaves a copy of the ransom note. 
+
+The following locations were not found to not be encrypted:
+
+-	Windows main directory.
+-	Games
+-	Tor Browser
+-	ProgramData
+-	cache2\entries
+-	Low\Content.IE5
+-	User Data\Default\Cache
+-	All Users
+-	Local Settings
+-	AppData\Local
+-	Program Files
+
+The malware ignores these file extensions:
+
+-	LNK
+-	EXE
+-	SYS
+-	DLL
+
+The malware also has a list of filenames that will not be encrypted:
+
+-	inf
+-	ini
+-	ini
+-	dat
+-	db
+-	bak
+-	dat.log
+-	db
+-	bin
+-	DECRYPT-FILES.txt
+
