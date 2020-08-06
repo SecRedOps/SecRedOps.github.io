@@ -32,16 +32,16 @@ Download the first clue here
 
 ### Answers 
 
-Opening the 'web-developer-needed.docx' informs the player of the document author and the companies domain. 
+Opening the 'web-developer-needed.docx' informs the player of the document author and the companies domain by checking document info, meta-data or just reading. 
 
-Using the breach data a password can be found, however, this is not correct due to the super secure savvy HR lady changing her password according to the seasons.
+Looking at the breach data file a password can be found, however, this is not correct due to the super secure savvy HR lady changing her password according to the seasons, a helpful hint is to note when the job advert doc was created. 
 
 Once the key.doc is opened, the number 13 and a block of text appears. If the user gives the answer as 13 at this stage, they get some points/recognition, but have more to do. The key is in fact encoded in base64 13 times. 
 
 There are two ways to decode this:
 
 1. very simply google base64 decoder and decode 13 times
-2. If not Internet is available then the user can try the following command on Windows with PowerShell and placing the block into a foo.txt file
+2. If no Internet is available then the user can try the following command on Windows with PowerShell by placing the base64 block into a foo.txt file
 ```sh
 for($i = 0; $i -lt 13; $i++){$j=$i+1; certutil -decode foo0$i.txt foo$j.txt} 
 ```
