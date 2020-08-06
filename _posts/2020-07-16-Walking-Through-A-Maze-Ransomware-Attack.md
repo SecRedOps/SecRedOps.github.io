@@ -220,3 +220,4 @@ A couple of final points from me
 
 1. logs, logs, logs - make sure everything is logging and backing up somewhere, this breach was active for nearly 30 days before being detected, would your systems be able to retrieve logs that far back? 
 2. Make sure your end point protection is properly deployed and cannot be disabled locally. 
+3. RPD open to the INTERNET? Please don't. If you can use Security Groups to apply IP Allow Rules, or use a gateway that can detect and block brute-force attacks and ensures users authenticate with Multi Factor Authentication. 
