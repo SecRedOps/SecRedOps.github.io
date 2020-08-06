@@ -41,7 +41,7 @@ The current tactics of Maze are to not only encrypt your data, but ex-filtrate i
 
 Whilst not strictly sticking to the specific time frames, Maze are true to their word and regularly update their site of companies who have failed to make contact or payments.
 
-So, how would a company arrive to be in this situation? Well, I was recently tasked with answering that exact question, and through forensic acquisition and analysis I can provide a walkthrough of a Maze attack, and importantly what to do to avoid it happening to your and your organisation. Or if you have already fallen victim to Maze, what to do after the incident and how to respond accordingly. 
+So, how would a company arrive to be in this situation? Well, I was recently tasked with answering that exact question, and through forensic acquisition and analysis I can provide a walkthrough of a Maze attack, and importantly what to do to avoid it happening to you and your organisation. Or if you have already fallen victim to Maze, what to do after the incident and how to respond accordingly. 
 
 So to paint the scene, we have arrived on site, secured the systems and network, taken forensic images of all the affected devices and where required ensured that there is no possibility of persistence by resetting all passwords of any corporate information systems, such as emails, desktops and so on. 
 Now that we have recovered the infected images to our labs, we can begin the investigation. 
