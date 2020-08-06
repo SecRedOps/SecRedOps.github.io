@@ -47,4 +47,4 @@ for($i = 0; $i -lt 13; $i++){$j=$i+1; certutil -decode foo0$i.txt foo$j.txt}
 ```
 Doing either of these reveals the actual code showing the challenge has been completed. 
 
-for all of the files check here(link coming soon.)
+For all of the files check here(link coming soon.)
