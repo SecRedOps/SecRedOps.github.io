@@ -81,7 +81,7 @@ The three files the attacker place on the infected PC are:
 	<a href="/assets/images/net64.png"><img src="/assets/images/net64.png"></a>
 </figure>
 
-As mentioned, this the network scanning tool, licence, and configuration file, running the net64.exe also confirms the language of the attackers:
+As mentioned, this is their network scanning tool, licence, and configuration file, running the net64.exe also confirms the language of the attackers:
 
 <figure>
 	<a href="/assets/images/tool.png"><img src="/assets/images/tool.png"></a>
