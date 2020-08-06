@@ -63,7 +63,7 @@ Then after several months of trying the attackers are successful at logging into
 	<a href="/assets/images/RU-IP.png"><img src="/assets/images/RU-IP.png"></a>
 </figure>
 
-An interesting point to highlight is that the attackers are not wasting time with low privilege accounts are only attempting to log in with Administrator style user names. As you can see from the failed logins, they are only using several variations. 
+An interesting point to highlight is that the attackers are not wasting time with low privilege accounts are only attempting to log in with Administrator style user names.  
 
 So, we are now at the point where the attackers have access to a server on an internal network. Their next task is to carry out reconnaissance of the victim server and other servers they might want to access. 
 
